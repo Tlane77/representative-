@@ -1,0 +1,110 @@
+.header {
+  font-family: Arial, Helvetica, sans-serif;
+  color: navy;
+}
+
+#State-Representative {
+  display: flex;
+  width: 100%;
+}
+
+#Lrg {
+  font-size: 16px;
+  display: inline-flex;
+
+  float: right;
+}
+
+#Lamar-Alexander {
+  height: auto;
+  overflow: hidden;
+  flex: 1;
+  padding: 10%;
+  padding-top: 10%;
+}
+#committees {
+  padding-bottom: 30%;
+}
+
+#label {
+  padding: 0%;
+  padding-top: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  flex: 1;
+  font: white;
+}
+body {
+  background: cornflowerblue;
+}
+
+/* Style all elements with the class name "h2" */
+h2 {
+  padding: 0%;
+  padding-top: 0%;
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+h3 {
+  padding: 0%;
+  padding-top: 0%;
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  background-color: oldlace;
+}
+/* Style the element with the id "representative" */
+.representative {
+  display: flex;
+  width: 100%;
+}
+.sidebar__items {
+  list-style: none;
+  padding: 20px;
+  border-inline-start-color: red;
+  vertical-align: 0em;
+}
+
+.sidebar__map {
+  list-style: none;
+}
+
+/* Style all elements with the class name "blogpost" */
+.blogpost {
+  padding: 15px;
+  color: black;
+  background-color: red;
+  margin: 0;
+}
+
+.sidebar {
+  border: 1px solid black;
+  float: right;
+  background-color: cornsilk;
+}
+.ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  text-align: center;
+}
+
+footer {
+  margin: 3em 1em 0px 1em;
+  text-align: center;
+}
+.myDIV {
+  width: 100%;
+  padding: 25px;
+  background-color: coral;
+  color: white;
+  font-size: 25px;
+}
